@@ -20,3 +20,12 @@ Come up with concrete examples, to help you understand the problem better and he
 - Complex examples (edge cases)
 - Empty inputs examples
 - Invalid inputs examples
+
+## Break it down
+
+Explicitly write down the steps you need to take.
+
+This will help you:
+
+- Think about the code you'll write before you write it.
+- Catch conceptual issues or misunderstandings.
