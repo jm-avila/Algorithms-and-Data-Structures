@@ -10,4 +10,4 @@ Ask youself these questions:
 - What are the inputs?
 - What are the outputs that should come from the solution?
 - Can the outputs be determined from the inputs? Do I have enough information to solve the problem?
-- How should I label the important pieces of data?
+- How should I label the important pieces of data? What matters?
