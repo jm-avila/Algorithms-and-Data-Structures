@@ -21,7 +21,7 @@ Come up with concrete examples, to help you understand the problem better and he
 - Empty inputs examples
 - Invalid inputs examples
 
-## Break it down
+## Break it down
 
 Explicitly write down the steps you need to take.
 
@@ -30,6 +30,17 @@ This will help you:
 - Think about the code you'll write before you write it.
 - Catch conceptual issues or misunderstandings.
 
-## Solve or Simplify
+## Solve or Simplify
 
 Solve the problem, if you can't, find the core difficulty and temporarily ignore it. Write a simplified solution and then incorporate the difficulty and reiterate.
+
+## Refactor
+
+Refactoring questions:
+
+- Can you check the result?
+- Can you derive the result differently?
+- Is the implementation easily understood?
+- Can you improve the perfomance?
+- Have others solved the problem before?
+- Can you use the implementation for another problem?
