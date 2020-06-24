@@ -59,6 +59,10 @@ This can often avoid nested loops or O(n^2) operations withs arrays and strings.
 
 #### Multiple Pointers
 
+Creating pointers or values that correspond to an index or position and then move towards the beginning, end or middle, based on a certain condition.
+
+Very efficient for solving problems with minimal space complexity.
+
 #### Sliding Window
 
 #### Divide and Conquer
