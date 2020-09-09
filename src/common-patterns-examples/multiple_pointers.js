@@ -54,5 +54,3 @@ function countUniqueValuesMP(arr) {
   }
   return arr.length ? i + 1 : i;
 }
-
-console.log(countUniqueValues2([]));

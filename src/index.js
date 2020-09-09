@@ -1,1 +1,2 @@
-console.log("Algorithms and Data Structures");
+// require("./common-patterns-examples");
+require("./challenges");
