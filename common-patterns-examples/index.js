@@ -1,3 +1,4 @@
-const slidingWindow = require("./sliding_window");
+const { binary, linear } = require("./search");
 
-console.log(slidingWindow([1, 2, 3, 1, 2, 5], 3));
+console.log("binary", binary([1, 2, 3, 4, 5, 6], 4));
+console.log("linear", linear([1, 2, 3, 4, 5, 6], 4));
