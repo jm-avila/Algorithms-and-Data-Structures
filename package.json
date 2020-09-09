@@ -4,7 +4,8 @@
   "description": "## How do you improve?",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon common-patterns-examples"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jm-avila/Algorithms-and-Data-Structures/issues"
   },
-  "homepage": "https://github.com/jm-avila/Algorithms-and-Data-Structures#readme"
+  "homepage": "https://github.com/jm-avila/Algorithms-and-Data-Structures#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
 }

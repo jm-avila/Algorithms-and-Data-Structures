@@ -65,6 +65,10 @@ Very efficient for solving problems with minimal space complexity.
 
 #### Sliding Window
 
+Creating a window which can either be an array or number from one position to another. Depending on a certain condition, the window will increase or decrease and a new window created.
+
+Usefull for keeping track of a subset of data in an array/string.
+
 #### Divide and Conquer
 
 #### Dynamic Programming
