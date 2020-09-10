@@ -125,3 +125,34 @@ Given a sorted array and a value, rather than looping in a order fashion, we sta
 - On average has a Big O of O(log n).
 
 ### 5. Sort Algorithms
+
+#### What is sorting?
+
+The process of rearranging the items in a collection so the items are in some kind of order.
+
+#### JS sort built-in method
+
+[].sort()
+
+The method accepts an optional comparator function, that looks at pairs of elements and determines their sort order based on the return value.
+example:
+
+```javascript
+[1, 2, 10, 20].sort((a, b) => a - b);
+```
+
+If the return value is:
+
+- a negative number, a should come before b.
+- a positive number, a should come after b.
+- 0, a and b are the same as far as the sort is concerned.
+
+#### Basic Sorting Algorithms
+
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+
+#### Bubble Sort
+
+A sorting algorithm where the largest values bubble up to the top!
