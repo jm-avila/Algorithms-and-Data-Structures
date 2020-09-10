@@ -156,3 +156,7 @@ If the return value is:
 #### Bubble Sort
 
 A sorting algorithm where the largest values bubble up to the top!
+
+#### Selection Sort
+
+Similar to bubble sort, but instead of first placing large values into sorted position, it places small values into sorted position.
