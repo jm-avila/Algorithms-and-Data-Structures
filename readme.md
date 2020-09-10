@@ -49,7 +49,7 @@ Refactoring questions:
 - Have others solved the problem before?
 - Can you use the implementation for another problem?
 
-### 2. Master common problem solving patterns
+### 2. Common problem solving patterns
 
 #### Frequency Counter
 
@@ -71,8 +71,57 @@ Usefull for keeping track of a subset of data in an array/string.
 
 #### Divide and Conquer
 
-#### Dynamic Programming
+Dividing a data set into smaller chunks and then repeating a process with a subtset of data.
 
-#### Greedy Algorithms
+Usefull to decrease time complexity.
 
-#### Backtracking
+### 3. Recursion
+
+#### What is recursion?
+
+A process that calls itself.
+
+#### How do recursive functions work?
+
+Define a named function that calls itself with a different input on each call, until it reaches the base case.
+
+#### Base Case
+
+The condition that ends the recursion.
+
+#### Recursive function essentials
+
+- Base Case
+- Different Input
+- Returning values from a function to another to get data from each function call.
+- Pure recursion: avoid mutating inputs, opt for making copies.
+- Helper method recursion: use the external scope to mutate elements withoud having to return from each call.
+
+### 4. Searching Algorithms
+
+#### What is a search algorithm?
+
+An algorithm used to retrieve information stored within some data structure either with discrete or continuous values.
+
+#### Common JS array search methods
+
+- indexOf
+- includes
+- find
+- findIndex
+
+#### Linear Search
+
+Given an array and a value. Loop through the array and check if the current array element is equal to the value. Basically it's looking element by element until you find the value.
+
+- Appropriate for unordered lists.
+- On average has a Big O of O(n).
+
+#### Binary Search
+
+Given a sorted array and a value, rather than looping in a order fashion, we start form the middle of the array and evaluate whether the value is at the right or left of the current position. We then do the same with the subset of data where the value would be, given the sort order.
+
+- Appropriate for ordered lists.
+- On average has a Big O of O(log n).
+
+### 5. Sort Algorithms
