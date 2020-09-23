@@ -207,3 +207,9 @@ Compare the elements in both array and order them until any of the two arrays ha
 Is a divide-and-conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.
 
 #### Radix Sort
+
+Is a non-comparative sorting algorithm. It avoids comparison by creating and distributing elements into buckets according to their radix. For elements with more than one significant digit, this bucketing process is repeated for each digit, while preserving the ordering of the prior step, until all digits have been considered.
+
+It exploits the fact that information about the size of a number is encoded in the number of digits. More digits means a bigger number.
+
+All type of data can be sorted this way, but it will first need be converted to numbers.
