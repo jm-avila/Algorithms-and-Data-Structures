@@ -168,3 +168,36 @@ Similar to bubble sort, but instead of first placing large values into sorted po
 #### Insertion Sort
 
 Builds up the sort by gradually creating a larger left half which is always sorted.
+
+#### Shortcomings of Basic Sorting Algorithms
+
+    - Don't scale well
+    - As the input size increases, the time it takes to sort the values increases proportionally.
+
+#### Intermediate Sorting Algorithms
+
+- Merge Sort
+- Quick Sort
+- Radix Sort
+
+#### Why use these Algorithms?
+
+- Faster Sorts
+- With respect with the basic ones, improves time complexity from O(n^2) to O(n log n).
+
+#### Merge Sort
+
+It's a combination of splitting, merging and sorting. Exploits the fact that arrays of 0 or 1 element are always sorted.
+
+Step 1 - Spit:
+Split an array into smaller arrays of 0 or 1 elements.
+
+Step 2 - Merge:
+
+Given two arrays which are sorted, create a new array which is also sorted and consists of all the elements in the two input arrays.
+
+The merge should run on O(n + m) time and space, and should not modify the inputs.
+
+#### Quick Sort
+
+#### Radix Sort
