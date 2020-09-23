@@ -147,6 +147,10 @@ If the return value is:
 - a positive number, a should come after b.
 - 0, a and b are the same as far as the sort is concerned.
 
+#### Sorting Algorithms Animations
+
+Animations that illustrate how effectively data sets from different starting points can be sorted using different algorithms. See the [website](https://www.toptal.com/developers/sorting-algorithms).
+
 #### Basic Sorting Algorithms
 
 - Bubble Sort
