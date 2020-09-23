@@ -160,3 +160,7 @@ A sorting algorithm where the largest values bubble up to the top!
 #### Selection Sort
 
 Similar to bubble sort, but instead of first placing large values into sorted position, it places small values into sorted position.
+
+#### Insertion Sort
+
+Builds up the sort by gradually creating a larger left half which is always sorted.

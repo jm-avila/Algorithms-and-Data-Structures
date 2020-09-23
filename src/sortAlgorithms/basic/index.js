@@ -1,4 +1,5 @@
-const bubbleSort = require("./bubbleSort");
+const bubbleSort = require("./");
 const selectionSort = require("./selectionSort");
+const insertionSort = require("./insertionSort");
 
-console.log(selectionSort([11, 3543, 13, 45, 93]));
+console.log(insertionSort([2, 1, 9, 76, 4]));
