@@ -189,14 +189,18 @@ Builds up the sort by gradually creating a larger left half which is always sort
 
 It's a combination of splitting, merging and sorting. Exploits the fact that arrays of 0 or 1 element are always sorted.
 
-Step 1 - Spit:
+Spit:
 Split an array into smaller arrays of 0 or 1 elements.
 
-Step 2 - Merge:
+Merge:
 
 Given two arrays which are sorted, create a new array which is also sorted and consists of all the elements in the two input arrays.
 
 The merge should run on O(n + m) time and space, and should not modify the inputs.
+
+Sort:
+
+Compare the elements in both array and order them until any of the two arrays has no elements. If any of the arrays has more elements than can be compared, those elements are already sorted.
 
 #### Quick Sort
 
