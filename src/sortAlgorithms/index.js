@@ -1,2 +1,3 @@
 //require("./basic");
-require("./mergeSort");
+//require("./mergeSort");
+require("./quickSort");

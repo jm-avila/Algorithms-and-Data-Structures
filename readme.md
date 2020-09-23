@@ -204,4 +204,6 @@ Compare the elements in both array and order them until any of the two arrays ha
 
 #### Quick Sort
 
+Is a divide-and-conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.
+
 #### Radix Sort
