@@ -213,3 +213,44 @@ Is a non-comparative sorting algorithm. It avoids comparison by creating and dis
 It exploits the fact that information about the size of a number is encoded in the number of digits. More digits means a bigger number.
 
 All type of data can be sorted this way, but it will first need be converted to numbers.
+
+### 6. Data Structures
+
+#### What is a data structure?
+
+Is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.
+
+#### Common Data structure
+
+- Singly Linked Lists
+- Doubly Linked Lists
+- Stacks
+- Queues
+- Binary Search Trees
+- Binary Heaps
+- Hash Heaps
+- Hash Tables
+- Graphs
+
+#### Why so many?
+
+Different data structures excel at different things.
+
+#### ES2015 Classes
+
+A class is a blueprint for creating objects with pre-define properties and methods.
+
+example:
+
+```
+class Student {
+    constructor(firstName, lastName) {
+        this.firstName = firstname;
+        this.lastName = lastname;
+    }
+}
+
+const tyler = new Student("Tyler", "Durden");
+```
+
+The method to create new objects **_must_** be called constructor.
