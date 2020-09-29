@@ -1,4 +1,2 @@
-// require("./common-patterns-examples");
-// require("./recursion");
-// require("./searchingAlgorithms");
-// require("./sortAlgorithms");
+// require("./algorithms");
+require("./data-structures");
