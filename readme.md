@@ -254,3 +254,46 @@ const tyler = new Student("Tyler", "Durden");
 ```
 
 The method to create new objects **_must_** be called constructor.
+
+#### Linked List
+
+A data structure that contains the following properties:
+
+- head
+- tail
+- length
+
+Linked lists consist of nodes, and each node has a value and a pointer to another node or null. Are an excellent alternative to arrays when insertion and deletion at the beginning are frequently required.
+
+It is the foundation for other data structures like Stacks and Queues.
+
+example:
+
+```
+4 => 6 => 8 => 2
+```
+
+head = 4
+tail = 2
+length = 4
+
+**Comparison with Arrays**
+
+Lists:
+
+- Do not have indexes.
+- Connected via nodes with a next pointer.
+- Random access is not allowed.
+
+Arrays:
+
+- Indexed in order.
+- Insetion and deletion can be expensive.
+- Can quicky be accessed at a specific index.
+
+**Big O of Singly Linked Lists**
+
+- Insertion = O(1)
+- Removal = O(1) or O(N)
+- Searching = O(N)
+- Access = O(N)
