@@ -308,3 +308,20 @@ It's almost identical to Singly Linked Lists, except every node has an additiona
 - Removal = O(1)
 - Searching = O(N)
 - Access = O(N)
+
+#### Stacks
+
+A stack is an abstract concept, it's a collection of data that follows a LIFO (Last In, First Out) structure. The last element added to the stack will be the first element removed from the stack. There is more than one way of implementing a stack.
+
+**Common Stack usesage:**
+
+- Managing function invocations.
+- Undo/Redo functionality.
+- Routing (the history object) is treated like a stack.
+
+**Big O of Stacks**
+
+- Insertion = O(1)
+- Removal = O(1)
+- Searching = O(N)
+- Access = O(N)
