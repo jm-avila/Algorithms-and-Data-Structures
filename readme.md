@@ -343,3 +343,69 @@ Is a collection of data that follows a FIFO (First In, First Out) structure. The
 - Removal = O(1)
 - Searching = O(N)
 - Access = O(N)
+
+#### Binary Search Trees
+
+**What is a tree?**
+
+A data structure that consists of nodes in a parent/child relationship. Sibbling nodes can't be connected.
+
+                    Root
+        child                   child
+    child   child          child     child
+
+**Tree Terminology**
+
+- Root: The top node in a tree.
+- Child: A node directly connected to another node when moving away from the Root.
+- Parent: The converse notion of a child.
+- Siblings: A group of nodes with the same parent.
+- Edge: The connection between one node and another.
+
+**Trees vs Lists**
+
+- List are linear, they a are a sequence of items.
+- Trees are nonlinear, they can branch and have more than one pathway.
+
+**Common Tree usage**
+
+- HTML DOM
+- Network Routing
+- Abstract Syntax Tree
+- Artificial Intelligence
+- Folders in Operating Systems
+- Computer File Systems
+
+**What is Binary Tree?**
+Binary Tree is a hierarchical data structure in which each node has zero, one, or at the most, two children. Each node contains a “left” pointer, a “right” pointer, and a data element. The “root” pointer represents the topmost node in the tree. Anything which has two children and one parent node is a binary tree.
+
+**What is Binary Search Tree?**
+A Binary Search Tree is a type of binary tree data structure in which the nodes are arranged in order, hence also called as “ordered binary tree”. It’s a node-based data structure which provides an efficient and fast way of sorting, retrieving, searching data. For each node, the elements in the left subtree must be less than or equal to the key in its parent node (L < P), and the elements in the right subtree must be greater than or equal to the key in its parent node (R > P). There should be no duplicate keys. In simple terms, it’s a special kind of binary tree data structure that efficiently stores and manages items in memory.
+
+**Differences between Binary Trees, and Binary Search Tress**
+
+Difference Between Binary Tree and Binary Search Tree:
+
+- Definition: A Binary Search Tree is an ordered binary tree in which there is a relative order to how the nodes should be organized.
+- Structure: Binary search tree is a type of binary tree in which all the nodes in the left subtree are less than or equal to the value of the root node and that of the right subtree are greater than or equal to the value of the root node.
+- Operation: Binary search trees keep their keys sorted that allows for fast and efficient lookup, insertion, and deletion of items
+
+In esence a Binary Tree follows one simple rule that each parent node has no more than two child nodes, whereas a Binary Search Tree is just a variant of the binary tree which follows a relative order to how the nodes should be organized in a tree.
+
+More at: [Difference between Binary Tree and Binary Search Tree](http://www.differencebetween.net/technology/difference-between-binary-tree-and-binary-search-tree/#ixzz6ZdIWSlvG)
+
+**Operations on Binary Search Trees**
+It supports three main operations:
+
+- Searching
+- Insertion
+- Deletion
+
+Binary Search Tree allows for fast retrieval of elements stored in the tree as each node key is thoroughly compared with the root node, which discards half of the tree.
+
+**Big O of Binary Search Trees**
+
+- Insertion = O(log N)
+- Searching = O(log N)
+
+NOT guaranteed, if all values are greater or less than each their parents you would end with a completely one sided tree which means it will take linear time, O(N).
