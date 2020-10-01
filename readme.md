@@ -297,3 +297,14 @@ Arrays:
 - Removal = O(1) or O(N)
 - Searching = O(N)
 - Access = O(N)
+
+#### Doubly Linked Lists
+
+It's almost identical to Singly Linked Lists, except every node has an additional pointer to the previous nodes. The extra pointer makes them better for finding nodes and can be done in half of the time compared to Singly Linked Lists, but requires more memory.
+
+**Big O of Doubly Linked Lists**
+
+- Insertion = O(1)
+- Removal = O(1)
+- Searching = O(N)
+- Access = O(N)
