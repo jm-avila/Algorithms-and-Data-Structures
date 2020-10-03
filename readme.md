@@ -1,10 +1,10 @@
 # Problem Solving Approach
 
-## How do you improve?
+## **How do you improve?**
 
-### 1. Devise a plan for solving problems
+### **1. Devise a plan for solving problems**
 
-#### Understand the Problem
+#### **Understand the Problem**
 
 Before trying to solve it, understand it.
 
@@ -16,7 +16,7 @@ Ask youself these questions:
 - Can the outputs be determined from the inputs? Do I have enough information to solve the problem?
 - How should I label the important pieces of data? What matters?
 
-#### Concrete example
+#### **Concrete example**
 
 Come up with concrete examples, to help you understand the problem better and help check that the eventual solution works properly.
 
@@ -25,7 +25,7 @@ Come up with concrete examples, to help you understand the problem better and he
 - Empty inputs examples
 - Invalid inputs examples
 
-#### Break it down
+#### **Break it down**
 
 Explicitly write down the steps you need to take.
 
@@ -34,11 +34,11 @@ This will help you:
 - Think about the code you'll write before you write it.
 - Catch conceptual issues or misunderstandings.
 
-#### Solve or Simplify
+#### **Solve or Simplify**
 
 Solve the problem, if you can't, find the core difficulty and temporarily ignore it. Write a simplified solution and then incorporate the difficulty and reiterate.
 
-#### Refactor
+#### **Refactor**
 
 Refactoring questions:
 
@@ -49,47 +49,47 @@ Refactoring questions:
 - Have others solved the problem before?
 - Can you use the implementation for another problem?
 
-### 2. Common problem solving patterns
+### **2. Common problem solving patterns**
 
-#### Frequency Counter
+#### **Frequency Counter**
 
 Using objects or sets to collect values or frequencies of values.
 
 This can often avoid nested loops or O(n^2) operations withs arrays and strings.
 
-#### Multiple Pointers
+#### **Multiple Pointers**
 
 Creating pointers or values that correspond to an index or position and then move towards the beginning, end or middle, based on a certain condition.
 
 Very efficient for solving problems with minimal space complexity.
 
-#### Sliding Window
+#### **Sliding Window**
 
 Creating a window which can either be an array or number from one position to another. Depending on a certain condition, the window will increase or decrease and a new window created.
 
 Usefull for keeping track of a subset of data in an array/string.
 
-#### Divide and Conquer
+#### **Divide and Conquer**
 
 Dividing a data set into smaller chunks and then repeating a process with a subtset of data.
 
 Usefull to decrease time complexity.
 
-### 3. Recursion
+### **3. Recursion**
 
-#### What is recursion?
+#### **What is recursion?**
 
 A process that calls itself.
 
-#### How do recursive functions work?
+#### **How do recursive functions work?**
 
 Define a named function that calls itself with a different input on each call, until it reaches the base case.
 
-#### Base Case
+#### **Base Case**
 
 The condition that ends the recursion.
 
-#### Recursive function essentials
+#### **Recursive function essentials**
 
 - Base Case
 - Different Input
@@ -97,40 +97,42 @@ The condition that ends the recursion.
 - Pure recursion: avoid mutating inputs, opt for making copies.
 - Helper method recursion: use the external scope to mutate elements withoud having to return from each call.
 
-### 4. Searching Algorithms
+# Algorithms
 
-#### What is a search algorithm?
+## **1. Searching Algorithms**
+
+### **What is a search algorithm?**
 
 An algorithm used to retrieve information stored within some data structure either with discrete or continuous values.
 
-#### Common JS array search methods
+### **Common JS array search methods**
 
 - indexOf
 - includes
 - find
 - findIndex
 
-#### Linear Search
+### **Linear Search**
 
 Given an array and a value. Loop through the array and check if the current array element is equal to the value. Basically it's looking element by element until you find the value.
 
 - Appropriate for unordered lists.
 - On average has a Big O of O(n).
 
-#### Binary Search
+### **Binary Search**
 
 Given a sorted array and a value, rather than looping in a order fashion, we start form the middle of the array and evaluate whether the value is at the right or left of the current position. We then do the same with the subset of data where the value would be, given the sort order.
 
 - Appropriate for ordered lists.
 - On average has a Big O of O(log n).
 
-### 5. Sort Algorithms
+## **2. Sort Algorithms**
 
-#### What is sorting?
+### **What is sorting?**
 
 The process of rearranging the items in a collection so the items are in some kind of order.
 
-#### JS sort built-in method
+### **JS sort built-in method**
 
 [].sort()
 
@@ -147,45 +149,45 @@ If the return value is:
 - a positive number, a should come after b.
 - 0, a and b are the same as far as the sort is concerned.
 
-#### Sorting Algorithms Animations
+### **Sorting Algorithms Animations**
 
 Animations that illustrate how effectively data sets from different starting points can be sorted using different algorithms. See the [website](https://www.toptal.com/developers/sorting-algorithms).
 
-#### Basic Sorting Algorithms
+### **Basic Sorting Algorithms**
 
 - Bubble Sort
 - Selection Sort
 - Insertion Sort
 
-#### Bubble Sort
+### **Bubble Sort**
 
 A sorting algorithm where the largest values bubble up to the top!
 
-#### Selection Sort
+### **Selection Sort**
 
 Similar to bubble sort, but instead of first placing large values into sorted position, it places small values into sorted position.
 
-#### Insertion Sort
+### **Insertion Sort**
 
 Builds up the sort by gradually creating a larger left half which is always sorted.
 
-#### Shortcomings of Basic Sorting Algorithms
+### **Shortcomings of Basic Sorting Algorithms**
 
     - Don't scale well
     - As the input size increases, the time it takes to sort the values increases proportionally.
 
-#### Intermediate Sorting Algorithms
+### **Intermediate Sorting Algorithms**
 
 - Merge Sort
 - Quick Sort
 - Radix Sort
 
-#### Why use these Algorithms?
+### **Why use these Algorithms?**
 
 - Faster Sorts
 - With respect with the basic ones, improves time complexity from O(n^2) to O(n log n).
 
-#### Merge Sort
+### **Merge Sort**
 
 It's a combination of splitting, merging and sorting. Exploits the fact that arrays of 0 or 1 element are always sorted.
 
@@ -202,11 +204,11 @@ Sort:
 
 Compare the elements in both array and order them until any of the two arrays has no elements. If any of the arrays has more elements than can be compared, those elements are already sorted.
 
-#### Quick Sort
+### **Quick Sort**
 
 Is a divide-and-conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.
 
-#### Radix Sort
+### **Radix Sort**
 
 Is a non-comparative sorting algorithm. It avoids comparison by creating and distributing elements into buckets according to their radix. For elements with more than one significant digit, this bucketing process is repeated for each digit, while preserving the ordering of the prior step, until all digits have been considered.
 
@@ -214,13 +216,13 @@ It exploits the fact that information about the size of a number is encoded in t
 
 All type of data can be sorted this way, but it will first need be converted to numbers.
 
-### 6. Data Structures
+# **Data Structures**
 
-#### What is a data structure?
+## **What is a data structure?**
 
 Is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.
 
-#### Common Data structure
+## **Common Data structure**
 
 - Singly Linked Lists
 - Doubly Linked Lists
@@ -232,11 +234,11 @@ Is a collection of data values, the relationships among them, and the functions 
 - Hash Tables
 - Graphs
 
-#### Why so many?
+## **Why so many?**
 
 Different data structures excel at different things.
 
-#### ES2015 Classes
+## **ES2015 Classes**
 
 A class is a blueprint for creating objects with pre-define properties and methods.
 
@@ -255,7 +257,7 @@ const tyler = new Student("Tyler", "Durden");
 
 The method to create new objects **_must_** be called constructor.
 
-#### Linked List
+## **Linked List**
 
 A data structure that contains the following properties:
 
@@ -277,7 +279,7 @@ head = 4
 tail = 2
 length = 4
 
-**Comparison with Arrays**
+### **Comparison with Arrays**
 
 Lists:
 
@@ -291,62 +293,62 @@ Arrays:
 - Insetion and deletion can be expensive.
 - Can quicky be accessed at a specific index.
 
-**Big O of Singly Linked Lists**
+### **Big O of Singly Linked Lists**
 
 - Insertion = O(1)
 - Removal = O(1) or O(N)
 - Searching = O(N)
 - Access = O(N)
 
-#### Doubly Linked Lists
+## **Doubly Linked Lists**
 
 It's almost identical to Singly Linked Lists, except every node has an additional pointer to the previous nodes. The extra pointer makes them better for finding nodes and can be done in half of the time compared to Singly Linked Lists, but requires more memory.
 
-**Big O of Doubly Linked Lists**
+### **Big O of Doubly Linked Lists**
 
 - Insertion = O(1)
 - Removal = O(1)
 - Searching = O(N)
 - Access = O(N)
 
-#### Stacks
+## **Stacks**
 
 A stack is an abstract concept, it's a collection of data that follows a LIFO (Last In, First Out) structure. The last element added to the stack will be the first element removed from the stack. There is more than one way of implementing a stack.
 
-**Common Stacks usage:**
+### **Common Stacks usage:**
 
 - Managing function invocations.
 - Undo/Redo functionality.
 - Routing (the history object) is treated like a stack.
 
-**Big O of Stacks**
+### **Big O of Stacks**
 
 - Insertion = O(1)
 - Removal = O(1)
 - Searching = O(N)
 - Access = O(N)
 
-#### Queues
+## **Queues**
 
 Is a collection of data that follows a FIFO (First In, First Out) structure. The first element added to the queue will be the first element removed from the queue. There is more than one way of implementing a queue, and are foundational for more complex data structures.
 
-**Common Queues usage:**
+### **Common Queues usage:**
 
 - Background tasks
 - Uploading resources
 - Printing
 - Task processing
 
-**Big O of Queues**
+### **Big O of Queues**
 
 - Insertion = O(1)
 - Removal = O(1)
 - Searching = O(N)
 - Access = O(N)
 
-#### Binary Search Trees
+## **Binary Search Trees**
 
-**What is a tree?**
+### **What is a tree?**
 
 A data structure that consists of nodes in a parent/child relationship. Sibbling nodes can't be connected.
 
@@ -354,7 +356,7 @@ A data structure that consists of nodes in a parent/child relationship. Sibbling
         child                   child
     child   child          child     child
 
-**Tree Terminology**
+### **Tree Terminology**
 
 - Root: The top node in a tree.
 - Child: A node directly connected to another node when moving away from the Root.
@@ -362,12 +364,12 @@ A data structure that consists of nodes in a parent/child relationship. Sibbling
 - Siblings: A group of nodes with the same parent.
 - Edge: The connection between one node and another.
 
-**Trees vs Lists**
+### **Trees vs Lists**
 
 - List are linear, they a are a sequence of items.
 - Trees are nonlinear, they can branch and have more than one pathway.
 
-**Common Tree usage**
+### **Common Tree usage**
 
 - HTML DOM
 - Network Routing
@@ -376,13 +378,15 @@ A data structure that consists of nodes in a parent/child relationship. Sibbling
 - Folders in Operating Systems
 - Computer File Systems
 
-**What is Binary Tree?**
+### **What is Binary Tree?**
+
 Binary Tree is a hierarchical data structure in which each node has zero, one, or at the most, two children. Each node contains a “left” pointer, a “right” pointer, and a data element. The “root” pointer represents the topmost node in the tree. Anything which has two children and one parent node is a binary tree.
 
-**What is Binary Search Tree?**
+### **What is Binary Search Tree?**
+
 A Binary Search Tree is a type of binary tree data structure in which the nodes are arranged in order, hence also called as “ordered binary tree”. It’s a node-based data structure which provides an efficient and fast way of sorting, retrieving, searching data. For each node, the elements in the left subtree must be less than or equal to the key in its parent node (L < P), and the elements in the right subtree must be greater than or equal to the key in its parent node (R > P). There should be no duplicate keys. In simple terms, it’s a special kind of binary tree data structure that efficiently stores and manages items in memory.
 
-**Differences between Binary Trees, and Binary Search Tress**
+### **Differences between Binary Trees, and Binary Search Tress**
 
 Difference Between Binary Tree and Binary Search Tree:
 
@@ -394,7 +398,8 @@ In esence a Binary Tree follows one simple rule that each parent node has no mor
 
 More at: [Difference between Binary Tree and Binary Search Tree](http://www.differencebetween.net/technology/difference-between-binary-tree-and-binary-search-tree/#ixzz6ZdIWSlvG)
 
-**Operations on Binary Search Trees**
+### **Operations on Binary Search Trees**
+
 It supports three main operations:
 
 - Searching
@@ -403,9 +408,35 @@ It supports three main operations:
 
 Binary Search Tree allows for fast retrieval of elements stored in the tree as each node key is thoroughly compared with the root node, which discards half of the tree.
 
-**Big O of Binary Search Trees**
+### **Big O of Binary Search Trees**
 
 - Insertion = O(log N)
 - Searching = O(log N)
 
 NOT guaranteed, if all values are greater or less than each their parents you would end with a completely one sided tree which means it will take linear time, O(N).
+
+### **Tree Traversal**
+
+Unlike linear data structures (Array, Linked List, Queues, Stacks, etc) which have only one logical way to traverse them, trees can be traversed in different ways.
+
+### **Common ways for traversing trees:**
+
+- Breadth First Traversal or BFS: Horizontally or by levels.
+- Depth First Traversals or DFS: Vertically or by branches.
+  (a) Inorder (Left, Root, Right)
+  (b) Preorder (Root, Left, Right)
+  (c) Postorder (Left, Right, Root)
+
+### **When to use BFS and DFS?**
+
+Depends on the tree structure. The time complexity in both cases is the same, but the space complexity do vary.
+
+For deep and narrow tress the BFS is best because the queue will keeps track of fewer nodes.
+
+For wide and shallow trees DFS is best becasuse the approach only keeps track one branch at a time.
+
+When choosing DFS Pre, In or Post order the correct approach depends on how will you use the output since the diferences is at it's order.
+
+If you want the output to be sorted, the in order approach is best.
+
+If you need to reconstruct or copie the tree the order of the output makes it very easy when using the pre order approach.
