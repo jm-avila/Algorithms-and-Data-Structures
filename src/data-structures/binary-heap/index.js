@@ -1,2 +1,3 @@
-require("./max");
+//require("./max");
 //require("./min");
+require("./priority-queue");

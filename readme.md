@@ -464,3 +464,13 @@ Is a heap that takes the form of a binary tree with two additional constraints:
 
 - To implement Priority Queues.
 - For Graph traversal algorithms.
+
+### **What is a Priority Queue?**
+
+A data structure where each element has a priority. Elements with higher priorities are served before elements with lower priorities. It's an abstract concept that can be implemented in many ways.
+
+### **Big O of Binary Heaps**
+
+- Insertion = O(log N)
+- Removal = O(log N)
+- Searching = O(N)
