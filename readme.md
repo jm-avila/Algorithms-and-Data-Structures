@@ -474,3 +474,55 @@ A data structure where each element has a priority. Elements with higher priorit
 - Insertion = O(log N)
 - Removal = O(log N)
 - Searching = O(N)
+
+## **Hash Table**
+
+## **What is a Hash Table?**
+
+A data structure that implements a structure that can map keys to values. A hash table uses a hash function to convert keys into valid array indices, from which the desired value can be found. During lookup, the key is hashed and the resulting hash indicates where the corresponding value is stored.
+
+- Stores key-value pairs.
+- Keys are not ordered.
+- Fast for finding, adding and removing values.
+
+Hash tables are implemented in most programming languages.
+
+- Python has Dictionaries.
+- JS has Object and Maps.
+- Java, Go and Scala have Maps.
+- Ruby has Hashes.
+
+### **What makes a good hash?**
+
+- Fast (constant time)
+- Doesn't cluster outputs at specific indices, but distributes uniformly.
+- Deterministic (same input yields the same output)
+
+### **Prime numbers**
+
+Hash functions take advantage of primer numbers properties to spread keys more uniformly. It's also helpful if the array in which values are placed has a prime length.
+
+### **Collisions**
+
+Even with a large array and a greate hash function, collisions are inevitable. There are many strategies for dealing with collisions, but we'll focus on two:
+
+- Separate Chaining
+- Linear Probing
+
+#### **Separate Chaining**
+
+With separate chaining, at each index in our array we store values using a more sophisticated data structure (e.g. an array or a linked list.)
+
+This allows us to store multiple key-value pairs at the same index.
+
+#### **Linear Probing**
+
+With linear probing, when we find a collision, we search through the array to find the next empty slot.
+
+Unlike with separate chaining, this allows us to store a single key-value at each index.
+
+### **Big O of Hash Tables**
+
+- Insertion = O(1)
+- Removal = O(1)
+- Access = O(1)

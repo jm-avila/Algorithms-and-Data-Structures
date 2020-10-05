@@ -4,3 +4,4 @@
 //require("./queues");
 //require("./binary-search-tree");
 //require("./binary-heap");
+//require("./hash-table");
