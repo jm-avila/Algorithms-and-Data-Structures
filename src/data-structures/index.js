@@ -3,3 +3,4 @@
 //require("./stacks");
 //require("./queues");
 //require("./binary-search-tree");
+require("./binary-heap");

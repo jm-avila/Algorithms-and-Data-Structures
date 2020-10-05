@@ -440,3 +440,27 @@ When choosing DFS Pre, In or Post order the correct approach depends on how will
 If you want the output to be sorted, the in order approach is best.
 
 If you need to reconstruct or copie the tree the order of the output makes it very easy when using the pre order approach.
+
+## **Binary Heaps**
+
+### **What are Heaps?**
+
+Is a specialized tree-based data structure that satisfies the heap property:
+
+- In a max heap, parent nodes are always larger than child nodes.
+
+- In a min heap, parent nodes are always smaller than child nodes.
+
+In a heap, the highest (or lowest) value element is always stored at the root. It is a useful when it is necessary to repeatedly remove the object with the highest (or lowest) value.
+
+### **What are Binary Heaps?**
+
+Is a heap that takes the form of a binary tree with two additional constraints:
+
+- Shape property: All levels of the tree, except possibly the last one are fully filled, and, if the last level of the tree is not complete, the nodes of that level are filled from left to right.
+- Heap property: the key stored in each node is either greater than or equal to or less than or equal to the keys in the node's children, according to some total order.
+
+### **Common Binary Heaps usage:**
+
+- To implement Priority Queues.
+- For Graph traversal algorithms.
