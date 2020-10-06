@@ -588,3 +588,26 @@ Basically it's a collection of nodes and connections.
 - Faster to lookup specific edge
 
 **\*Note:** Most data in the real-world tends to lend itself to sparser and/or larger graphs.
+
+### **Graph Traversal**
+
+Visiting, Updating, Checking each vertex in a graph.
+
+A graph has no starting point. For every vertice in a graph there is no gurante theres only one way to reach it.
+
+### **Common Graph Traversal Usage**
+
+- Peer to peer networking
+- Web Crawlers
+- Finding closest matches:
+  - Recommendations
+- Shortest path problems:
+  - GPS Navigation
+  - Solving Mazes
+  - AI (Shortest path to win the game)
+
+### **Graph Traversal Approaches**
+
+- Depth First: Explore as far as possible all vertice neighbours before "backtracking".
+
+- Breadth First: Explore all vertice neighbours at current detph first.
