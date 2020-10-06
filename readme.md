@@ -315,7 +315,7 @@ It's almost identical to Singly Linked Lists, except every node has an additiona
 
 A stack is an abstract concept, it's a collection of data that follows a LIFO (Last In, First Out) structure. The last element added to the stack will be the first element removed from the stack. There is more than one way of implementing a stack.
 
-### **Common Stacks usage:**
+### **Common Stacks Usage**
 
 - Managing function invocations.
 - Undo/Redo functionality.
@@ -332,7 +332,7 @@ A stack is an abstract concept, it's a collection of data that follows a LIFO (L
 
 Is a collection of data that follows a FIFO (First In, First Out) structure. The first element added to the queue will be the first element removed from the queue. There is more than one way of implementing a queue, and are foundational for more complex data structures.
 
-### **Common Queues usage:**
+### **Common Queues Usage**
 
 - Background tasks
 - Uploading resources
@@ -369,7 +369,7 @@ A data structure that consists of nodes in a parent/child relationship. Sibbling
 - List are linear, they a are a sequence of items.
 - Trees are nonlinear, they can branch and have more than one pathway.
 
-### **Common Tree usage**
+### **Common Tree Usage**
 
 - HTML DOM
 - Network Routing
@@ -460,7 +460,7 @@ Is a heap that takes the form of a binary tree with two additional constraints:
 - Shape property: All levels of the tree, except possibly the last one are fully filled, and, if the last level of the tree is not complete, the nodes of that level are filled from left to right.
 - Heap property: the key stored in each node is either greater than or equal to or less than or equal to the keys in the node's children, according to some total order.
 
-### **Common Binary Heaps usage:**
+### **Common Binary Heaps Usage**
 
 - To implement Priority Queues.
 - For Graph traversal algorithms.
@@ -526,3 +526,65 @@ Unlike with separate chaining, this allows us to store a single key-value at eac
 - Insertion = O(1)
 - Removal = O(1)
 - Access = O(1)
+
+## **Graphs**
+
+### **What are Graphs?**
+
+A graph data structure consists of a finite (and possibly mutable) set of vertices, together with a set of unordered pairs of these nodes for an undirected graph or a set of ordered pairs for a directed graph.
+
+Basically it's a collection of nodes and connections.
+
+### **Common Graphs Usage**
+
+- Social Network
+- Location / Mapping
+- Routing Algorithms
+- Visual Hierarchy
+- File System Optimizations
+- Recommendation Engines
+
+### **Graphs Terminology**
+
+- Vertex: a node,
+- Edge: connection between nodes.
+- Weighted/Unweighted: Values assigned to edges.
+- Directed/Undirected: Directions assigned to edges.
+
+### **Approaches to Graphs Implementation**
+
+- Adjacency List
+- Adjacency Matrix
+
+### **Differences Between Approaches**
+
+|V| - number of vertices
+|E| - number of edges
+
+**Big O for Operations of Adjacency List**
+
+- Add Vertex: O(1)
+- Add Edge: O(1)
+- Remove Vertex: O(|V| + |E|)
+- Remove Edge: O(|E|)
+- Query: O(|V| + |E|)
+- Storage: O(|V| + |E|)
+
+- Can take up less space (in sparse graphs)
+- Faster to iterate over all edges
+- Can be slower to lookup specific edge
+
+**Big O for Operations of Adjacency Matrix**
+
+- Add Vertex: O(|V^2|)
+- Add Edge: O(1)
+- Remove Vertex: O(|V^2|)
+- Remove Edge: O(1)
+- Query: O(1)
+- Storage: O(|V^2|)
+
+- Takes up more space (in sparse graphs)
+- Slower to iterate over all edges
+- Faster to lookup specific edge
+
+**\*Note:** Most data in the real-world tends to lend itself to sparser and/or larger graphs.
