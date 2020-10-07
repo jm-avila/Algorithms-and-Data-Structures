@@ -216,18 +216,22 @@ It exploits the fact that information about the size of a number is encoded in t
 
 All type of data can be sorted this way, but it will first need be converted to numbers.
 
-## **3. Dijkstra's Algorithm**
+## **3. Dynamic Programming**
 
-### **What is the Dijkstra's Algorithm?**
+### **What is Dynamic Programming?**
 
-It's one of the most famous and widely used algorithms. It finds the shortest path between two vertices on a graph.
+A method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions.
 
-### **Common Dijkstra's Algorithm Usage**
+It only works on problems with:
 
-- GPS: Finding the fastest route.
-- Network Routing: Finds the open shortest path for data.
-- Biology: Used to model the spread of viruses among humans.
-- Airline Tickets: Finding the cheapest route to your destination.
+- Overlapping subproblems
+- Optimal substructure
+
+**Overlapping subproblems**
+A problem is said to have overlapping subproblems if it can be broken down into subproblems which are reused several times.
+
+**Optimal substructure**
+A problem is said to have optimal substructure if an optimal solution can be constructed from optimal solutions of its subproblems.
 
 # **Data Structures**
 
@@ -624,3 +628,16 @@ A graph has no starting point. For every vertice in a graph there is no gurante 
 - Depth First: Explore as far as possible all vertice neighbours before "backtracking".
 
 - Breadth First: Explore all vertice neighbours at current detph first.
+
+### **Dijkstra's Algorithm**
+
+**What is the Dijkstra's Algorithm?**
+
+It's one of the most famous and widely used algorithms. It finds the shortest path between two vertices on a graph.
+
+**Common Dijkstra's Algorithm Usage**
+
+- GPS: Finding the fastest route.
+- Network Routing: Finds the open shortest path for data.
+- Biology: Used to model the spread of viruses among humans.
+- Airline Tickets: Finding the cheapest route to your destination.
