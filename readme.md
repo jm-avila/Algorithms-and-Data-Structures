@@ -216,6 +216,19 @@ It exploits the fact that information about the size of a number is encoded in t
 
 All type of data can be sorted this way, but it will first need be converted to numbers.
 
+## **3. Dijkstra's Algorithm**
+
+### **What is the Dijkstra's Algorithm?**
+
+It's one of the most famous and widely used algorithms. It finds the shortest path between two vertices on a graph.
+
+### **Common Dijkstra's Algorithm Usage**
+
+- GPS: Finding the fastest route.
+- Network Routing: Finds the open shortest path for data.
+- Biology: Used to model the spread of viruses among humans.
+- Airline Tickets: Finding the cheapest route to your destination.
+
 # **Data Structures**
 
 ## **What is a data structure?**

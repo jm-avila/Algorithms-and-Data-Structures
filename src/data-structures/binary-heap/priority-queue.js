@@ -86,14 +86,15 @@ class PriorityQueue {
   }
 }
 
-const queue = new PriorityQueue();
+module.exports = PriorityQueue;
+// const queue = new PriorityQueue();
 
-queue.enqueue("Broken Leg", 2);
-queue.enqueue("Broken Arm", 2);
-queue.enqueue("Flu", 5);
-queue.enqueue("Bleeding", 0);
-queue.enqueue("Back Pain", 6);
+// queue.enqueue("Broken Leg", 2);
+// queue.enqueue("Broken Arm", 2);
+// queue.enqueue("Flu", 5);
+// queue.enqueue("Bleeding", 0);
+// queue.enqueue("Back Pain", 6);
 
-queue.dequeue();
+// queue.dequeue();
 
-console.log(queue.values);
+// console.log(queue.values);
